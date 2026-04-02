@@ -42,7 +42,7 @@ def simple_interest(
 def compound_interest(
     principal: float,
     nominal_annual_interest_rate_percentage: float,
-    number_of_compounding_periods: float,
+    number_of_compounding_periods: string,
 ) -> float:
     """
     >>> compound_interest(10000.0, 0.05, 3)
